@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    background-color: #ededed;
+    /* padding: 20px; */
+    height: 100vh;
+    /* flex-direction: row;  */
+    /* left to right  */
+    /* flex-direction: row-reverse;
+     /* right to left  */
+     /* flex-direction:column; */
+     /* top to bottom */
+     /* flex-direction: column-reverse;  */
+      /*  bottom to top */
+
+      /* default  */
+      /* justify-content: flex-start;  */
+      /* justify-content: flex-end; */
+      /* justify-content: center; */
+      /* justify-content: space-between; */
+      /* justify-content: space-around; */
+      /* justify-content: space-evenly; */
+      /* align-items: flex-start; */
+      /* align-items: flex-end; */
+      /* align-items: center; */
+      /* align-items: baseline; */
+      /* justify-content: center;
+      align-items: center; */
+
+      flex-wrap: wrap-reverse;
+}
+
+.item{
+    width: 150px;
+    height: 150px;
+    background-color: hotpink;
+    margin: 10px;
+    font-size: 28px;
+    color: #fff;
+    flex-shrink: 0;
+}
+.item3{
+    font-size: 68px;
+}
+/* 
+FLEX_CONTAINERS
+
+flex-direction >> It used to define the direction of main axis
+            This prop determines the direction in which the flex items will be placed inside flex-container
+
+justify-content
+
+flex-start (default) > Flex items are align at start of the main axis
+flex-end > Flex items are align at end of the main axis
+center > Flex items are align at the center of the main axis
+
+space-between >> space is evenly distrubuted between the flex items 
+(first item at the start of main axis and last item will be at the end)
+
+space-around >> space is equaly distributed around(left and right) of the flex item
+
+space-evenly >> space is equaly distributed around(left and right) and between of the flex item
+
+            */
